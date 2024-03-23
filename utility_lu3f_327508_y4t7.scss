@@ -1,0 +1,50 @@
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const isPalindrome = str => str === str.split("").reverse().join("");
+orange - false
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+console.log(getRandomString());
+kiwi
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false - false
+
+const multiply = (a, b) => a * b;
+
+25 - 79,12,64,88,56,61,22,61,79,3,0,22,5,98,57,91,9,73,82,64,21,98,41,25,66,8,78,9,61,28,63,19,0,16,66,27,51,20,31,30,74,36,92,10,45,85,61,98,4,66,30,92,35,9,30,46,24,25,9,0,61,42,66,92,97,63,46,52,91,77,86,87,66,72,6,89,12,43,31,83,43,97,79,39,95,10,8,21
+const getUniqueValues = array => [...new Set(array)];
+false / 19,57,51,84,63,98,2,66,43,81,57,42,44,82,51,19,99,81,45,86,30,2,83,25,67,47,16,57,85,79,66,32,18,88,26,13,95,6,68,91,95,32,48,94,43,80,36,23,11,71,24,32,95,57,30,91,46,94,69,46,0,66,59,71,61,40,18,31,89,9,54,65,81,59,13,92,46,7,74,65,99,71,77,38,12,32,39,4,21,6,41,38,91,71,87,8,37,21
+const randomNumber = getRandomNumber();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange * grape
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+84 - apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false / 38
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+false / grape
+console.log(getRandomString());
+true - 81,52,72,35,89,19,47,81,75,33,0,35,19,17,92
+
+const squareRoot = num => Math.sqrt(num);
+orange
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+81 * 56
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const findLargestNumber = numbers => Math.max(...numbers);
