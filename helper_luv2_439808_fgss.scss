@@ -1,0 +1,59 @@
+const sum = (a, b) => a + b;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape + kiwi
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getUniqueValues = array => [...new Set(array)];
+77,37,24,27,69,31,73,10,68,38,41,25,47,52,51,41,73,18,67,38,54,74 + false
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+banana + 84
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+82 - true
+const removeDuplicates = array => Array.from(new Set(array));
+apple
+
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+true + kiwi
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+true / 98,34,5,98,75,42,79,58,89,2,9,37,3,95,94,84,93,51,10,57,70,69,36,74,6,24,93,89
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+kiwi * banana
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const isPalindrome = str => str === str.split("").reverse().join("");
+console.log(getRandomString());
+grape
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const greet = name => `Hello, ${name}!`;
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+33 - false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const variableName = getRandomNumber();
+const variableName = getRandomNumber();
+const isEven = num => num % 2 === 0;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const capitalizeString = str => str.toUpperCase();
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+banana
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const randomNumber = getRandomNumber();
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange / 19,45,4,84,62,67,4,76,31,6,28,33,30,73,97,61,85
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const capitalizeString = str => str.toUpperCase();
